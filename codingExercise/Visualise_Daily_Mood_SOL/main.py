@@ -1,10 +1,7 @@
 import glob
 import streamlit as st
 import plotly.express as px
-
 from nltk.sentiment import SentimentIntensityAnalyzer
-
-from codingExercise.Visualise_Daily_Mood.main import scores
 
 filepaths = sorted(glob.glob("diary/*.txt"))
 

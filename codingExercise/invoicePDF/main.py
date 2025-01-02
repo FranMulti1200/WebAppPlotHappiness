@@ -1,9 +1,5 @@
 from fpdf import FPDF
 import pandas as pd
-from nltk.sem.chat80 import borders
-
-#pdf = FPDF(orientation="P", unit="mm", format="A4")
-#pdf.set_auto_page_break(auto=False, margin=0)
 
 factura = {
     "description":"",

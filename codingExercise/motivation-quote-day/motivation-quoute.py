@@ -2,7 +2,7 @@ import random
 from datetime import date, time, datetime
 
 list_quotes = []
-nombreDia = {0: 'Lunes', 1: 'Martes', 2: 'Miércoles', 3: 'Jueves', 4: 'Viernes', 5: 'Sábado', 7: 'Domingo' }
+nombreDia = {0: 'Lunes', 1: 'Martes', 2: 'Miércoles', 3: 'Jueves', 4: 'Viernes', 5: 'Sábado', 6: 'Domingo' }
 
 with open('quotes.txt', 'r') as quotes:
     for quote in quotes:
